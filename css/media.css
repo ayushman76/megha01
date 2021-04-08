@@ -1,36 +1,36 @@
 @media(max-width:1200px){
-	.logo_item>img {
-    width: 100%!important;
-    }
-	.bars{
-	 font-size: 39px!important;
-    color: rgb(255 255 255);
-    cursor: pointer;
-	display:bock!important;
-   }
-   .mark{
-	font-size: 13px!important;
+.logo_item>img {
+width: 100%!important;
 }
-	.nav_item{
-		    display: none;
-			position: absolute;
-			width: 100%;
-			background: rgb(0 159 217);
-			/* margin: 0 auto; */
-			left: 0;
-			right: 0;
-			padding: 10px;
-			top: 40px;
-	  }
-	.waweSe {
-		position: relative;
-		width: 100%;
-		height: 156vh!important;
-		overflow: hidden;
-   }
-   .my_imgs {
-    position: relative;
-    top: 74px;
+.bars{
+font-size: 39px!important;
+color: rgb(255 255 255);
+cursor: pointer;
+display:bock!important;
+}
+.mark{
+font-size: 12px!important;
+}
+.nav_item{
+display: none;
+position: absolute;
+width: 100%;
+background: rgb(0 159 217);
+/* margin: 0 auto; */
+left: 0;
+right: 0;
+padding: 10px;
+top: 40px;
+}
+.waweSe {
+position: relative;
+width: 100%;
+height: 156vh!important;
+overflow: hidden;
+}
+.my_imgs {
+position: relative;
+top: 74px;
 
-  }
+}
 }
