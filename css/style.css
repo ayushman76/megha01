@@ -1,0 +1,230 @@
+
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+.logo_item>img{
+	width:212px!important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:28px!important;
+	
+	
+}
+p{
+	padding:10px;
+}
+nav{
+	position:sticky;
+	top:0px;
+z-index:9999999999;
+}
+.locate{
+	    padding: 5px 7px;
+    background: rgb(0 159 217);
+    border-radius: 100%;
+    color: rgb(255 255 255);
+    font-size: 20px;
+}
+.mark{
+	    padding: 5px 12px!important;
+    background: rgb(229 242 255)!important;
+    border-radius: 100px;
+}
+.head{
+	    font-size: 15px!important;
+
+}.head01{
+	font-size: 15px!important;
+    padding: 10px;
+    background: rgb(0 122 208);
+    color: rgb(255 255 255);
+    border-collapse: collapse;
+    border: 1px solid rgb(255 255 255);
+}
+.header_widgets>ul,nav{
+	padding:10px!important;
+}
+.header_widgets>ul>li{
+	margin: 10px 0px 0px 0px;
+}
+a{
+	color:black!important;
+	font-size:15px!important;
+}
+a:hover{
+	text-decoration:none!important;
+	background-color:transparent!important;
+}
+nav{
+	background: rgb(0 159 217);
+}
+.nav_item>ul>li>a{
+	color:white!important;
+}
+.slider{
+	padding:20px 0px;
+}
+p{
+	line-height: 29px;
+	font-size:15px;
+}
+.my_btn{
+	padding:10px 20px;
+	color: rgb(255 255 255)!important;
+	border: none;
+	font-weight: 600;
+	position:relative;
+	cursor:pointer;
+	
+	
+	
+}
+.my_content{
+	        line-height: 41px;
+    padding-top: 16px;
+}
+.my_facility>p{
+	font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+.my_facility {
+    padding: 40px 20px;
+    background: rgb(255 255 255);
+    box-shadow: 0px 8px 17px 10px #80808012;
+    border-radius: 6px;
+    margin: 20px 0px;
+    cursor: pointer;
+    height: 300px;
+}
+.my_facility:hover{
+	background-color:rgb(0 159 217);
+	color:white;
+	transition:0.4s ;
+}
+.my_facility:hover .facility{
+	transform: rotateY(350deg);
+	transition:0.8s;
+	background: rgb(255 255 255);
+    border-radius: 100px;
+    padding: 7px;
+}
+.my_facility:hover:after{
+ width: 50%;
+ transition:0.4s;
+}
+.my_facility:after{
+	content: "";
+    position: absolute;
+    border: 2px solid;
+    height: 0px;
+    width: 10%;
+	border-color:white;
+	
+}
+
+.feature_facility>.container>.row>.col-md-3>.my_facility{
+	    height: 195px!important;
+}
+.myService img {
+    width: 100%!important;
+    height: 206px!important;
+	object-fit: cover;
+}
+.myContect{
+	    background: rgb(0 122 208);
+    color: rgb(255 255 255);
+    font-size: 15px;
+	padding:10px;
+}
+.sidefix>a>img {
+    width: 76px;
+    height: auto;
+    position: fixed;
+    z-index: 999999999999;
+    right: -1px;
+    top: 250px;
+}
+footer{
+	background: rgb(0 122 208 / 60%);
+	border-top:30px solid white;
+}
+.footer_widget>ul>li>a,.Meghani_nursing_home_footer_nav>ul>li>a{
+	color:white!important;
+}
+.footer_widget>h1,.Meghani_nursing_home_footer_nav>h2{
+	color:white!important;
+}
+
+.fadeinleft {
+
+	opacity:0;
+
+	margin-left:-300px;
+
+	max-width:100%;
+
+}
+.bars{
+	display:none!important;
+}
+
+.my_content>h1{
+	font-family: 'Libre Baskerville', serif!important;
+}
+.my_content>a{
+	    margin: 0px 10px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Libre Baskerville', serif!important;
+}
+p,a,span{
+	font-family: 'Kiwi Maru', serif!important;
+font-family: 'Libre Baskerville', serif!important;
+font-family: 'Montserrat', sans-serif!important;
+}
+
+.head_tag{
+	color: rgb(0 122 208)!important;
+    font-weight: 600!important;
+}
+.my_imgs{ 
+position:relative;
+
+}
+.nurs{
+	z-index:-1;
+}
+.doctor{
+	width: 90%!important;
+    top: 64px;
+	 object-fit:fill;
+	 border-radius:20px;
+}
+.nurs{
+	width: 145%!important;
+	top: -10px;
+	background-image:url(../images/meghani.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:10px;
+
+	   
+}
+.doctor,.nurs{
+	position:absolute
+}
+.my_content>h1,.my_content>.mark,.my_content>p{
+	position:relative;
+	animation:blur 3s forwards;
+}
+.hover:hover .my_facility {
+	position:relative;
+	animation:fade_up 3s forwards;
+}
